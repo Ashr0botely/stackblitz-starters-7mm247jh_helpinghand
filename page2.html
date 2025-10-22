@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Helpy</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+
+
+    <nav>
+      <a href="/">Home</a>
+      <a href="/page2.html" aria-current="page">Helpy</a>
+      <a href="/page3.html">Helpy Info</a>
+      <a href="/page4.html">Support</a>
+    </nav>
+
+
+    <main>
+
+      <h1>Hi there,</h1>
+      <h2>  I am your AI networking assistant, HELPY! </h2>
+      <h3> Lets start with some questions, so we can get to know eachother better. </h3>
+
+
+      <br>
+      <br>
+
+      <label> Enter your full name: </label>
+      <input type="text" id="mySport" placeholder="Enter your sport here">
+
+      <br>
+
+      <button onclick="displayResult()"> Get Results </button>
+      <p id="myResult1"> Your name will be here: </p>
+
+      <br />
+
+
+      <label> What is your gender identity </label>
+      <input type="text" id="mygender" placeholder="Enter your gender here">
+
+      <br>
+
+      <button onclick="displayResult()"> Get Results </button>
+      <p id="myResult2"></p>
+
+
+      <label> What is your preferred language? Enter here: </label>
+      <input type="text" id="myLan" placeholder="Enter your language here">
+
+      <br>
+
+      <button onclick="displayResult()"> Get Results </button>
+      <p id="myResult3"> Your language will be here: </p>
+
+      <br />
+
+      <br />
+
+      <label> What is your current living situation? This is optional, but if you would like to share note that this information will not be shared anywhere. </label>
+      <input type="text" id="myLivcon" placeholder="Enter your situation here">
+
+      <br>
+
+      <button onclick="displayResult()"> Get Results </button>
+      <p id="myResult4"> Your wrote:</p>
+
+      <br />
+
+
+      <label> Enter your age: </label>
+      <input type="text" id="myAge" placeholder="Enter your age here">
+
+      <br>
+
+      <button onclick="displayResult()"> Get Results </button>
+      <p id="myResult5"> Your age will be here: </p>
+
+      <br />
+
+      <label> Enter your race/ethnicity </label>
+      <input type="text" id="myRace" placeholder="Enter your race here">
+
+      <br>
+
+      <button onclick="displayResult()"> Get Results </button>
+      <p id="myResult6"> Your answer will be here: </p>
+
+      <br />
+
+      <label> Do you have health insurance that covers mental healthcare? If so, tell me your insurance provider. If not, state N/A below  </label>
+      <input type="text" id="myIns" placeholder="Enter your insurance provider here">
+
+      <br>
+
+      <button onclick="displayResult()"> Get Results </button>
+      <p id="myResult7"> Your insurance will be here: </p>
+
+      <br />
+
+
+      <label> What mental health concern(s) are you currently experiencing? </label>
+      <input type="text" id="myhealth" placeholder="Enter your concerns here">
+
+      <br>
+
+      <button onclick="displayResult()"> Get Results </button>
+      <p id="myResult8"> Your concern(s) will be here: </p>
+
+      <br />
+
+
+      <label> How severe are your current symptoms? </label>
+      <input type="text" id="mySymptoms" placeholder="Enter your sysptoms here">
+
+      <br>
+
+      <button onclick="displayResult()"> Get Results </button>
+      <p id="myResult9"> Your symptoms will be here: </p>
+
+      <br />
+
+      <label> How long have you been experiencing theses concerns? </label>
+      <!--<input type="text" id="myConcerns" placeholder="Enter your concerns here"> -->
+
+
+      <select id="timeline">
+        <option value="">--Please choose an option--</option>
+        <option value="2+ years"> 2+ years </option>
+        <option value="2-1 years"> 2-1 years </option>
+        <option value="1-6 months"> 1-6 months  </option>
+        <option value="6-1 month"> 6-1month </option>
+        <option value="Less than 1 month"> Less than 1 month</option>
+      </select>
+
+      <br>
+
+      <button onclick="displayResult()"> Get Results </button>
+      <p id="myResult10"> Your name will be here: </p>
+
+      <br />
+
+
+      <label> What type of mental health serivces are you look for? </label>
+
+      <br>
+
+      <select id="services-select">
+        <option value="">--Please choose an option--</option>
+        <option value="Outpatient treatment">Outpatient treatment</option>
+        <option value="Prescription Medications">Prescription Medications</option>
+        <option value="Counseling/psychotherapy">Counseling/psychotherapy</option>
+        <option value="Medication management">Medication management</option>
+        <option value="Other Resources">Other Resources</option>
+
+      </select>
+
+      <button onclick="showSelection()"> Get Results </button>
+      <p id="output"> I see, you are look for </p>
+
+
+      <br />
+
+
+
+      <label> What are your preferences for in-person or virtual (telehealth) services </label>
+      <input type="text" id="myPre" placeholder="Enter your preference here" >
+
+      <br>
+
+      <button onclick="displayResult()"> Get Results </button>
+      <p id="myResult10"> Your name will be here: </p>
+
+      <br />
+
+
+      <label> Do you have a preference for the provider's gender, race/ethnicity, language, or specialty? </label>
+      <input type="text" id="myPre2" placeholder="Enter your preference here" >
+
+      <br>
+
+      <button onclick="displayResult()"> Get Results </button>
+      <p id="myResult11"> Your name will be here: </p>
+
+      <br />
+
+
+
+      <label> What times you are currently avabilable for appontments? Enter here: </label>
+      <input type="text" id="mySport" placeholder="Enter here" >
+
+      <br>
+
+      <button onclick="displayResult()"> Get Results </button>
+      <p id="myResult12"> Your name will be here: </p>
+
+      <br />
+
+      <label> Have you faced any diffculties accessing mental health services in the past? </label>
+      <input type="text" id="mySport" placeholder="Enter here" >
+
+      <br>
+
+      <button onclick="displayResult()"> Get Results </button>
+      <p id="myResult13"> Your name will be here: </p>
+
+      <br />
+
+
+      <label> What are the biggest challenges/barriers for you when trying to gain care? </label>
+      <input type="text" id="mySport" placeholder="Enter here" >
+
+      <br>
+
+      <button onclick="displayResult()"> Get Results </button>
+      <p id="myResult14"> Your name will be here: </p>
+
+      <br />
+      <label> May we contact you to follow up or schedule services? </label>
+      <input type="text" id="mySport" placeholder="Enter your answer here" >
+
+      <br>
+
+      <button onclick="displayResult()"> Get Results </button>
+      <p id="myResult15"> Your name will be here: </p>
+
+      <br />
+      <label> What is your preferred method of communication? </label>
+      <input type="text" id="mySport" placeholder="Enter your preferrence here" >
+
+      <br>
+
+      <button onclick="displayResult()"> Get Results </button>
+      <p id="myResult16"> Your name will be here: </p>
+
+      <br />
+
+      <label> Do you consent to us storing your information securely? </label>
+      <input type="text" id="mySport" placeholder="Enter your chocie here">
+
+      <br>
+
+      <button onclick="displayResult()"> Get Results </button>
+      <p id="myResult17"> Your name will be here: </p>
+
+      <br />
+      <label> Is there anything else that you would like to add? </label>
+      <input type="text" id="mySport" placeholder="Enter here" >
+
+      <br>
+
+      <button onclick="displayResult()"> Get Results </button>
+      <p id="myResult18"> Your additional info will be here: </p>
+
+      <br />
+    </main>
+  </body>
+</html>
