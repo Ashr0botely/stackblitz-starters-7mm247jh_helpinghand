@@ -12,13 +12,13 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 500px;
-  margin-top: -1rem;
-  gap: 2 rem;
+  padding: 5px 50px;
+  margin-top: 0rem;
+  gap: 1rem;
   border-bottom: solid 8px rgb(218, 105, 52);
   background-color: rgb(92, 209, 218);
 }
-nav div {
+/* nav div {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -27,7 +27,7 @@ nav div {
   margin-top: -1rem;
   gap: 2rem;
   background-color: rgb(92, 209, 218);
-}
+} */
 
 nav a {
   display: flex;
@@ -41,16 +41,22 @@ nav a {
   text-decoration: none;
   color: rgb(77, 5, 5);
   font-weight: bold;
+  size: 10px;
 }
 
 nav a:hover {
   background-color: rgb(216, 109, 38);
 }
 
-nav h4 {
+nav h4,
+p2,
+p4 {
   display: inline-block;
   justify-content: center;
   text-align: center;
+  text-decoration: solid;
+  size: 20px;
+  row-gap: 10px;
 }
 
 /* nav a {
