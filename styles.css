@@ -12,7 +12,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 50px;
+  padding: 5px;
   margin-top: 0rem;
   gap: 1rem;
   border-bottom: solid 8px rgb(218, 105, 52);
@@ -23,7 +23,7 @@ nav a {
   display: flex;
   min-width: 9rem;
   justify-content: center;
-  padding: 1rem 20px;
+  padding: 1rem 5px;
   border-radius: 0.2rem;
   border: solid 0px #aaa;
   text-align: center;
@@ -37,12 +37,9 @@ nav a {
 nav a:hover {
   background-color: rgb(216, 109, 38);
 }
-/* .nav-img {
-  margin-right: 10px;
-}
 .nav-container {
-  margin-left: 10px;
-} */
+  padding: 1rem 50px;
+}
 .container {
   display: flex;
   flex-direction: column;
