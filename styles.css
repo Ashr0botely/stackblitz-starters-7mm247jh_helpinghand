@@ -19,7 +19,6 @@ nav {
   background-color: rgb(92, 209, 218);
 }
 
-
 nav a {
   display: flex;
   min-width: 9rem;
@@ -38,14 +37,25 @@ nav a {
 nav a:hover {
   background-color: rgb(216, 109, 38);
 }
-
-nav h4,
-p2,
-p4 {
-  display: inline-flex;
+/* .nav-img {
+  margin-right: 10px;
+}
+.nav-container {
+  margin-left: 10px;
+} */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  /* display: block; */
+  margin-bottom: 5px;
   justify-content: center;
   text-align: center;
-  text-decoration: solid;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  font-weight: light;
   size: 20px;
   row-gap: 10px;
 }
