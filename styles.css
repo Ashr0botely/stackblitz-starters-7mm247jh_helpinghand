@@ -18,16 +18,7 @@ nav {
   border-bottom: solid 8px rgb(218, 105, 52);
   background-color: rgb(92, 209, 218);
 }
-/* nav div {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2rem;
-  margin-top: -1rem;
-  gap: 2rem;
-  background-color: rgb(92, 209, 218);
-} */
+
 
 nav a {
   display: flex;
@@ -51,7 +42,7 @@ nav a:hover {
 nav h4,
 p2,
 p4 {
-  display: inline-block;
+  display: inline-flex;
   justify-content: center;
   text-align: center;
   text-decoration: solid;
@@ -59,56 +50,9 @@ p4 {
   row-gap: 10px;
 }
 
-/* nav a {
-  display: inline-block;
-  justify-content: center;
-  min-width: 9rem;
-  min-height: 2rem;
-  padding: 0.5rem;
-  border-radius: 0.2rem;
-  gap: 0.5rem;
-  border: solid 0px #aaa;
-  text-align: center;
-  background-color: rgb(248, 166, 73);
-  text-decoration: none;
-  color: rgb(77, 5, 5);
-  font-weight: bold;
-} */
-/* nav {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  gap: 0.5rem;
-  border-bottom: solid 8px rgb(218, 105, 52);
-  background-color: rgb(92, 209, 218);
-}
-
-nav img {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-self: left;
-}
-
-nav a {
-  display: flex;
-  min-width: 9rem;
-  justify-content: center;
-  padding: 0.5rem;
-  border-radius: 0.2rem;
-  border: solid 0px #aaa;
-  text-align: center;
-  background-color: rgb(248, 166, 73);
-  text-decoration: none;
-  color: rgb(77, 5, 5);
-  font-weight: bold;
-} */
-
 nav a[aria-current="page"] {
   color: rgb(77, 5, 5);
-  background-color: rgb(248, 166, 73);
+  background-color: rgb(255, 203, 144);
 }
 
 main {
