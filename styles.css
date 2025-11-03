@@ -80,7 +80,7 @@ h2 {
   font-weight: bold;
   font-size: 2rem;
   color: rgb(207, 110, 45);
-  text-decoration:underline;
+  text-decoration: underline;
 }
 h3 {
   font-weight: bold;
@@ -104,7 +104,7 @@ input[type="text"] {
   transition: width 0.5s ease-in-out;
 }
 
-p{
+p {
   padding-left: 2rem;
   padding-right: 20%;
   padding-bottom: 30px;
@@ -117,7 +117,7 @@ p{
   color: rgb(49, 4, 4);
 }
 
-p1{
+p1 {
   padding-left: 2rem;
   padding-right: 20%;
   padding-bottom: 30px;

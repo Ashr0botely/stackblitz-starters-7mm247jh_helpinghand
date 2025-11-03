@@ -27,7 +27,8 @@
       <h1>Hi there,</h1>
       <h2>I am your AI networking assistant, HELPY!</h2>
       <h3>
-        Lets start with some questions, so we can get to know each other better.
+        Let's start with some questions, so we can get to know each other
+        better.
       </h3>
 
       <br />
@@ -35,7 +36,12 @@
 
       <!-- Full Name -->
       <label>1. Enter your full name:</label>
-      <input type="text" id="myName" maxlength="50" placeholder="Enter your name here" />
+      <input
+        type="text"
+        id="myName"
+        maxlength="50"
+        placeholder="Enter your name here"
+      />
       <br />
       <button onclick="displayResult('myName', 'myResult1', 'Your name is')">
         Get Results
@@ -110,8 +116,8 @@
       <!-- Health insurance -->
 
       <label>
-        7. Do you have health insurance that covers mental healthcare? If so, tell
-        us your insurance provider. If not, state N/A below
+        7. Do you have health insurance that covers mental healthcare? If so,
+        tell us your insurance provider. If not, state N/A below
       </label>
       <input
         type="text"
@@ -141,8 +147,8 @@
 
       <!-- symptoms -->
       <label>
-        9. On a scale of 1-5 (5 being the most severe), how severe are your current
-        symptoms?
+        9. On a scale of 1-5 (5 being the most severe), how severe are your
+        current symptoms?
       </label>
       <select id="scale">
         <option value="">--Please choose an option--</option>
@@ -175,14 +181,12 @@
 
       <br />
 
-
       <button onclick="displayResult('timeline', 'myResult10', 'Your said')">
         Get Results
       </button>
       <p id="myResult10">Your will answer be here:</p>
       <br />
       <br />
-
 
       <!-- serivces -->
       <label> 11. What type of mental health serivces are you look for? </label>
@@ -209,16 +213,21 @@
 
       <br />
 
-
-      <label> 11b. If you answered "Other" above, what serivces are you looking for? </label>
-      <input type="text" id="myOther" maxlength="200" placeholder= "Enter here"/>
+      <label>
+        11b. If you answered "Other" above, what serivces are you looking for?
+      </label>
+      <input
+        type="text"
+        id="myOther"
+        maxlength="200"
+        placeholder="Enter here"
+      />
 
       <br />
-      <button onclick = "displayResult( 'myOther', 'myResult21', 'You said:')">
+      <button onclick="displayResult( 'myOther', 'myResult21', 'You said:')">
         Get Results
       </button>
-      <p id="myResult21"> Your answer will be here: </p>
-
+      <p id="myResult21">Your answer will be here:</p>
 
       <br />
       <br />
@@ -269,8 +278,8 @@
       <!-- diffculties -->
 
       <label>
-        15. Have you faced any diffculties accessing mental health services in the
-        past?</label
+        15. Have you faced any diffculties accessing mental health services in
+        the past?</label
       >
       <input type="text" id="myDiff" placeholder="Enter here" />
       <br />
@@ -286,7 +295,12 @@
         16. What are the biggest challenges/barriers for you when trying to gain
         care?
       </label>
-      <input type="text" id="myChall" maxlength="250" placeholder="Enter here" />
+      <input
+        type="text"
+        id="myChall"
+        maxlength="250"
+        placeholder="Enter here"
+      />
       <br />
       <button onclick="displayResult('myChall', 'myResult14', 'You said:')">
         Get Results
@@ -307,24 +321,28 @@
       <br />
 
       <!-- communication -->
-      <label> 18. What is your preferred method of communication? List here:</label>
-      <input
-        type="text"
-        id="myCom"
-        placeholder="Enter your preferrence here"
-      />
+      <label>
+        18. What is your preferred method of communication? List here:</label
+      >
+      <input type="text" id="myCom" placeholder="Enter your preferrence here" />
       <br />
-      <button onclick="displayResult('myCom', 'myResult16', 'You said:')">Get Results</button>
+      <button onclick="displayResult('myCom', 'myResult16', 'You said:')">
+        Get Results
+      </button>
       <p id="myResult16">Your answer will be here:</p>
       <br />
       <br />
 
       <!-- Storing-->
 
-      <label> 19. Do you consent to us storing your information securely? </label>
+      <label>
+        19. Do you consent to us storing your information securely?
+      </label>
       <input type="text" id="myInfo" placeholder="Enter your chocie here" />
       <br />
-      <button onclick="displayResult('myInfo', 'myResult17', 'You said:')">Get Results</button>
+      <button onclick="displayResult('myInfo', 'myResult17', 'You said:')">
+        Get Results
+      </button>
       <p id="myResult17">Your answer will be here:</p>
       <br />
       <br />
@@ -333,7 +351,9 @@
       <label> 20. Is there anything else that you would like to add? </label>
       <input type="text" id="myElse" maxlength="200" placeholder="Enter here" />
       <br />
-      <button onclick="displayResult('myElse', 'myResult18', 'You said')">Get Results</button>
+      <button onclick="displayResult('myElse', 'myResult18', 'You said')">
+        Get Results
+      </button>
       <p id="myResult18">Your additional info will be here:</p>
       <br />
       <br />
